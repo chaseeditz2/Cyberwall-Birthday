@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>The Final Act — Cyberwall's Birthday</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- ============================= -->
+<!-- OPENING / TITLE SCREEN -->
+<!-- ============================= -->
+
+<main id="opening-screen" class="screen active">
+
+    <div class="storm-overlay"></div>
+    <div class="lightning"></div>
+
+    <div class="theater-curtain curtain-left"></div>
+    <div class="theater-curtain curtain-right"></div>
+
+    <section class="opening-content">
+
+        <p class="eyebrow">A BIRTHDAY MYSTERY</p>
+
+        <h1>THE FINAL ACT</h1>
+
+        <div class="divider"></div>
+
+        <p class="dedication">
+            A special performance<br>
+            for <strong>CYBERWALL</strong>
+        </p>
+
+        <p class="opening-text">
+            The curtains are closed.<br>
+            The storm is approaching.<br>
+            Someone has left something behind.
+        </p>
+
+        <button id="enter-button" class="main-button">
+            ENTER THE THEATER
+        </button>
+
+    </section>
+
+    <div class="weather-status">
+        <span class="status-light"></span>
+        <span>SEVERE WEATHER DETECTED</span>
+    </div>
+
+</main>
+
+
+<!-- ============================= -->
+<!-- THEATER LOBBY -->
+<!-- ============================= -->
+
+<main id="lobby-screen" class="screen">
+
+    <div class="rain"></div>
+
+    <header class="room-header">
+        <p class="room-label">ACT I</p>
+        <h2>THE LOBBY</h2>
+        <p>Something is waiting for you inside.</p>
+    </header>
+
+    <section class="lobby">
+
+        <div class="theater-sign">
+            <span>WELCOME</span>
+            <strong>CYBERWALL</strong>
+            <span>THE SHOW IS ABOUT TO BEGIN</span>
+        </div>
+
+        <div class="lobby-objects">
+
+            <button class="object" id="radio">
+                <span class="object-icon">📻</span>
+                <span>WEATHER RADIO</span>
+            </button>
+
+            <button class="object" id="poster">
+                <span class="object-icon">🎭</span>
+                <span>THEATER POSTER</span>
+            </button>
+
+            <button class="object" id="symbol">
+                <span class="object-icon">🐍</span>
+                <span>STRANGE SYMBOL</span>
+            </button>
+
+        </div>
+
+        <div id="clue-box" class="clue-box hidden">
+            <button id="close-clue" class="close-button">×</button>
+            <div id="clue-content"></div>
+        </div>
+
+    </section>
+
+    <button id="back-button" class="small-button">
+        RETURN TO ENTRANCE
+    </button>
+
+</main>
+
+
+<!-- ============================= -->
+<!-- JAVASCRIPT -->
+<!-- ============================= -->
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
